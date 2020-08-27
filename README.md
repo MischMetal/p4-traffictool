@@ -9,6 +9,8 @@ P4TrafficTool is a tool designed to aid P4 developers with the process of packet
 
 So whether behavioral (qualitative) testing on software targets (e.g. [bmv2](https://github.com/p4lang/behavioral-model)) or production (quantitative) testing on hardware targets (e.g. [Barefoot Tofino](https://barefootnetworks.com/products/brief-tofino/)), p4-traffictool has you covered :)
 
+You can read the SOSR 2019 poster [here](https://drive.google.com/file/d/1bQqJu9_PyDv6zZvEtjoSSHv8NoTjzdhp/view). 
+
 ## Getting Started
 ### Dependencies
 * **p4c compiler:** The input to p4-traffictool is the json file produced by the open-source [p4c](https://github.com/p4lang/p4c) compiler, specifically the `p4c-bm2-ss` backend. You can use the scripts [here](https://github.com/jafingerhut/p4-guide) to install `p4c` and the `p4c-bm2-ss` backend. For the `p4c-bm2-ss` backend to compile correctly, you may need to install [behavioral model](https://github.com/p4lang/behavioral-model) first. Post installation, `p4c-bm2-ss` should be available in your _PATH_. 
